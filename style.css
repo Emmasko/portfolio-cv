@@ -1,0 +1,35 @@
+.boe{ 
+    
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    border: 2px solid gray;
+    text-align: center;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 5px 5px 5px 5px gray;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+@media all and (max-width: 600px) {
+    .boe {
+        height: auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        
+    }
+}
+@media all and (max-width: 400px) {
+    .boe {
+        height: auto;
+        margin-top: 30%;
+        margin-bottom: 30%;
+        margin-left: 10px;
+        
+    }
+}
+
